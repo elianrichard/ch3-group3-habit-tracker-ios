@@ -110,8 +110,10 @@ final class HabitStore {
             for habit in habits {
                 group.addTask { [weak self] in
                     guard let self else { return }
-                    if let stats = try? await generateStatisticsUseCase.execute(habit: habit) {
-                        statistics[habit.id] = stats
+                    if let stats = try? await self.generateStatisticsUseCase.execute(habit: habit) {
+                        await MainActor.run {
+                            self.statistics[habit.id] = stats
+                        }
                     }
                 }
             }
