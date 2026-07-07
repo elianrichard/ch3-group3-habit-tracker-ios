@@ -1,6 +1,6 @@
 import Foundation
 import Testing
-@testable import AcademyHabitTracker
+@testable import Ch3Group3HabitTracker
 
 // MARK: - MV Architecture: HabitStore Tests
 //

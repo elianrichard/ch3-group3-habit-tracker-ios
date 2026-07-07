@@ -16,6 +16,7 @@ final class HabitDataModel {
     @Relationship(deleteRule: .cascade, inverse: \HabitCompletionDataModel.habit)
     var completions: [HabitCompletionDataModel]
 
+    @MainActor
     init(from habit: Habit) throws {
         self.id = habit.id
         self.name = habit.name
@@ -26,6 +27,7 @@ final class HabitDataModel {
         self.completions = []
     }
 
+    @MainActor
     func update(from habit: Habit) throws {
         name = habit.name
         habitDescription = habit.habitDescription
@@ -33,6 +35,7 @@ final class HabitDataModel {
         isArchived = habit.isArchived
     }
 
+    @MainActor
     func toHabit() throws -> Habit {
         let frequency = try JSONDecoder().decode(HabitFrequency.self, from: frequencyData)
         return Habit(
