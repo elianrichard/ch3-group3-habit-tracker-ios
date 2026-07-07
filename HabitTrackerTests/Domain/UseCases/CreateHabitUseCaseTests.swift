@@ -1,5 +1,5 @@
 import Testing
-@testable import Ch3Group3HabitTracker
+@testable import Ch3Group3HabitTrackerTest
 
 // MARK: - CreateHabitUseCase Tests
 

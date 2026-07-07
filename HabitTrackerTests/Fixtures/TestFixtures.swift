@@ -1,5 +1,5 @@
 import Foundation
-@testable import Ch3Group3HabitTracker
+@testable import Ch3Group3HabitTrackerTest
 
 // MARK: - Test Fixtures
 //
