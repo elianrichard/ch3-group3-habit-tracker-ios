@@ -18,7 +18,7 @@
 
 /* Begin PBXFileReference section */
 		000000000000000000000120 /* Ch3Group3HabitTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ch3Group3HabitTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE2FC20E2FE2563E009E7DA4 /* Ch3Group3HabitTracker.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ch3Group3HabitTracker.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2FC20E2FE2563E009E7DA4 /* Ch3Group3HabitTrackerTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ch3Group3HabitTrackerTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -61,7 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				000000000000000000000120 /* Ch3Group3HabitTracker.app */,
-				CE2FC20E2FE2563E009E7DA4 /* Ch3Group3HabitTracker.xctest */,
+				CE2FC20E2FE2563E009E7DA4 /* Ch3Group3HabitTrackerTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,7 +105,7 @@
 			);
 			name = HabitTrackerTests;
 			productName = AcademyHabitTrackerTests;
-			productReference = CE2FC20E2FE2563E009E7DA4 /* Ch3Group3HabitTracker.xctest */;
+			productReference = CE2FC20E2FE2563E009E7DA4 /* Ch3Group3HabitTrackerTest.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -408,8 +408,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Ch3Group3HabitTracker;
-				PRODUCT_NAME = Ch3Group3HabitTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = Ch3Group3HabitTrackerTest;
+				PRODUCT_NAME = Ch3Group3HabitTrackerTest;
 				SDKROOT = iphoneos;
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -417,7 +417,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ch3Group3HabitTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ch3Group3HabitTracker";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ch3Group3HabitTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ch3Group3HabitTrackerTest";
 			};
 			name = Debug;
 		};
@@ -431,8 +431,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Ch3Group3HabitTracker;
-				PRODUCT_NAME = Ch3Group3HabitTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = Ch3Group3HabitTrackerTest;
+				PRODUCT_NAME = Ch3Group3HabitTrackerTest;
 				SDKROOT = iphoneos;
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -440,7 +440,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ch3Group3HabitTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ch3Group3HabitTracker";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ch3Group3HabitTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ch3Group3HabitTrackerTest";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
